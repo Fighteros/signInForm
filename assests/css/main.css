@@ -1,0 +1,29 @@
+:root {
+    --paragraphs: #222222;
+    --links: #666666;
+    --overlay: rgba(200, 208, 211, 0.7);
+    --buttons: #325288;
+    --body: #f5f1da;
+}
+
+body {
+    line-height: 1.6;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* main section */
+
+.main {
+    align-items: center;
+    margin: 10% 30%;
+    /* background: url('../images/background.jpg') no-repeat center; */
+}
+
+.card {
+    padding: 48px 18px;
+    margin: 48px 18px;
+    background: var(--overlay);
+}
