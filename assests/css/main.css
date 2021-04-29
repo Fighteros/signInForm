@@ -1,0 +1,66 @@
+:root {
+    --paragraphs: #222222;
+    --links: #666666;
+    --overlay: rgba(200, 208, 211, 0.7);
+    --buttons: #dddd;
+    --body: #f5f1da;
+}
+
+body {
+    line-height: 1.6;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* main section */
+
+.main {
+    align-items: center;
+    margin: 10% 30%;
+    /* background: url('../images/background.jpg') no-repeat center; */
+}
+
+.card {
+    padding: 25px 18px;
+    margin: 48px 18px;
+    background: var(--overlay);
+}
+
+.main .form-title h1 {
+    color: #fff;
+    padding-bottom: 35px;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.main .form-group .form-control {
+    border: 0px solid var(--overlay);
+    background-color: transparent;
+    margin-bottom: 2px;
+    border-bottom: 2px solid var(--buttons);
+    border-radius: 0;
+}
+
+.main .form-group .form-control:focus {
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-group {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    right: 3px;
+    padding: 0 35px;
+}
+
+.form-group .form-icon i {
+    color: #dedede;
+    font-size: 1.6em;
+    padding-top: 12px;
+    padding-right: 15px;
+}
