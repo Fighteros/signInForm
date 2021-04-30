@@ -4,6 +4,7 @@
     --overlay: rgba(200, 208, 211, 0.7);
     --buttons: #dddd;
     --body: #f5f1da;
+    --btn: #1887FB
 }
 
 body {
@@ -63,4 +64,32 @@ body {
     font-size: 1.6em;
     padding-top: 12px;
     padding-right: 15px;
+}
+/* .form-check {
+    display: flex;
+    flex-direction: column;
+} */
+.form-check p a{
+    color: #fff;
+    text-decoration: underline;
+    margin-left: -5px;
+}
+.form-check button {
+    background-color: var(--btn);
+    border: 0;
+    padding: 10px;
+    margin-left: -5px;
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-check button:hover{
+    background-color: var(--btn);
+}
+.form-check #save-login{
+    display: inline-block;
+    margin-left: -5px;
+    margin-right: 3px;
+    background-color: #666 !important;
 }
