@@ -4,6 +4,7 @@
     --overlay: rgba(200, 208, 211, 0.7);
     --buttons: #dddd;
     --body: #f5f1da;
+    --btn: #1887FB
 }
 
 body {
@@ -63,4 +64,81 @@ body {
     font-size: 1.6em;
     padding-top: 12px;
     padding-right: 15px;
+}
+/* .form-check {
+    display: flex;
+    flex-direction: column;
+} */
+.form-check p a{
+    color: #fff;
+    text-decoration: underline;
+    margin-left: -5px;
+}
+.form-check button {
+    background-color: var(--btn);
+    border: 0;
+    padding: 10px;
+    margin-left: -5px;
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-check button:hover{
+    background-color: var(--btn);
+}
+.form-check #save-login{
+    display: inline-block;
+    margin-left: -5px;
+    margin-right: 3px;
+    background-color: #666 !important;
+}
+/* External Forms */
+.col-lg-12{
+    display: flex;
+    justify-content: space-between;
+}
+.external-form{
+    margin-top: 10px;
+}
+.external-form a{
+    color: #fff;
+    font-size: 1.03rem;
+}
+.external-form a:first-of-type{
+    text-decoration: underline;
+}
+.or{
+    color: #eee;
+    margin-left: 4px;
+    margin-right: 3px;
+}
+.with{
+    margin-left: 4px;
+    color: #eee;
+}
+#icon-social{
+    display: inline-block;
+}
+#icon-social #icons{
+    display: inline-block;
+}
+#icon-social .fab{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    color: #fff;
+}
+#icons .fa-google-plus-g{
+    background-color: var(--overlay);
+}
+#icons .fa-twitter{
+    background-color: var(--btn);
+}
+#icons .fa-facebook-f{
+    background-color: #727A87;  
 }
